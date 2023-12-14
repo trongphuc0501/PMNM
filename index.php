@@ -37,8 +37,8 @@ if (isset($_GET['act'])) {
       include "viewUser/profile.php";
       break;
     case 'timkiem':
-        
-        break;
+      include "viewUser/header.php";
+      break;
     default:
       include "viewUser/header.php";
       include "viewUser/section.php";
